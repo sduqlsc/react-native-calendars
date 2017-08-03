@@ -76,7 +76,7 @@ class Calendar extends Component {
     this.updateMonth = this.updateMonth.bind(this);
     this.addMonth = this.addMonth.bind(this);
     this.isSelected = this.isSelected.bind(this);
-    this.shouldComponentUpdate = shouldComponentUpdate;
+   // this.shouldComponentUpdate = shouldComponentUpdate;
   }
 
   componentWillReceiveProps(nextProps) {
