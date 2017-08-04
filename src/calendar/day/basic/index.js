@@ -51,6 +51,10 @@ class Day extends Component {
       dot = (<View style={dotStyle}/>);
     } else if (!this.props.markingExists) {
       textStyle.push(this.style.alignedText);
+    }    
+     
+     if(marked.textStyle){
+        textStyle.push(marked.textStyle);
     }
 
     if (this.props.state === 'selected' || marked.selected) {
